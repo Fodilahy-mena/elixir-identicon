@@ -30,6 +30,15 @@ mix deps.get
 mix deps.compile
 ```
 
+## Run
+
+```
+iex -S mix
+iex(1)> Identicon.main("username")
+```
+
+See if `username.png` file is created
+
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/identicon>.
